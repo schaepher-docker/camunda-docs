@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  camunda-docs:
+    image: schaepher/camunda-docs
+    ports:
+      - "8080:80"
