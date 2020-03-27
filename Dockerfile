@@ -1,7 +1,7 @@
 FROM nginx:1.17.9-alpine
 
 ARG HUGO_VER=0.68.3
-ARG CAMUNDA_VER=7.12
+ARG CAMUNDA_VER=7.11
 
 RUN set -ex; \
     cd /tmp ; \
